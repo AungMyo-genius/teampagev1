@@ -20,7 +20,7 @@ const counter = document.getElementById("team-count");
         if(ctr < target){
             counter.innerText = ctr + increment;
 
-            setTimeout(updatecounter,500);
+            setTimeout(updatecounter,400);
         }
 
         if(ctr > 9) {
@@ -37,4 +37,5 @@ const counter = document.getElementById("team-count");
     updatecounter();
 
 
+    
 
